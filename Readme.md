@@ -8,7 +8,8 @@ A sleep timer for your Mac. Lives in your menubar.
 
 ## License
 
-`Snooze` has been released under an [MIT License](http://opensource.org/licenses/MIT).
+`Snooze` has been released under an [MIT License](http://opensource.org/licenses/MIT).  
+Icon made by [Those Icons](https://www.flaticon.com/authors/those-icons) under a [CC 3.0 BY License](http://creativecommons.org/licenses/by/3.0/).
 
 ---
 
