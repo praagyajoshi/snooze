@@ -1,0 +1,6 @@
+framework module Pods_Snooze {
+  umbrella header "Pods-Snooze-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59878633C42E7905CCF0ACEE /* Pods_Snooze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583B4904DCF49DF88C79F3CC /* Pods_Snooze.framework */; };
+		61759B54207BB32D004CBA12 /* MDRestartShutdownLogout.m in Sources */ = {isa = PBXBuildFile; fileRef = 61759B53207BB32D004CBA12 /* MDRestartShutdownLogout.m */; };
+		6179E2BA2075619C0017A330 /* SleepModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6179E2B92075619C0017A330 /* SleepModel.swift */; };
+		6179E2BC207636C50017A330 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6179E2BB207636C50017A330 /* EventMonitor.swift */; };
+		6179E2BE2076753A0017A330 /* BlurredBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6179E2BD2076753A0017A330 /* BlurredBackgroundView.swift */; };
+		6179E2C0207684220017A330 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6179E2BF207684220017A330 /* TitleView.swift */; };
+		6179E2CC2076A59C0017A330 /* NoClippingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6179E2CB2076A59C0017A330 /* NoClippingView.swift */; };
+		618DC77120A05682003EAEB8 /* SNZButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618DC77020A05682003EAEB8 /* SNZButton.swift */; };
+		618DC77420A0A8C8003EAEB8 /* SNZScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618DC77320A0A8C8003EAEB8 /* SNZScrollView.swift */; };
+		61A5BF732073C72F00307005 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A5BF722073C72F00307005 /* AppDelegate.swift */; };
+		61A5BF772073C72F00307005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61A5BF762073C72F00307005 /* Assets.xcassets */; };
+		61A5BF7A2073C72F00307005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A5BF782073C72F00307005 /* Main.storyboard */; };
+		61A5BF892073C7C900307005 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A5BF872073C7C900307005 /* PopoverViewController.swift */; };
+		61A5BF8F2073CB7300307005 /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A5BF8E2073CB7300307005 /* SeparatorView.swift */; };
+		61A5BF932073CDA500307005 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A5BF922073CDA500307005 /* Constants.swift */; };
+		61A5BF962073D11500307005 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A5BF952073D11500307005 /* Colors.swift */; };
+		61A5BFA02073E33900307005 /* SleepControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A5BF9F2073E33900307005 /* SleepControlView.swift */; };
+		61A5BFA92073E39D00307005 /* ITSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A5BFA72073E39D00307005 /* ITSwitch.m */; };
+		61A5BFAB2073EC7900307005 /* SNZLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A5BFAA2073EC7900307005 /* SNZLabel.swift */; };
+		61A5BFAD2073EF9E00307005 /* RadioButtonsContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A5BFAC2073EF9E00307005 /* RadioButtonsContainerView.swift */; };
+		61A5BFAF2073F18800307005 /* SNZRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A5BFAE2073F18800307005 /* SNZRadioButton.swift */; };
+		61A5BFB12073F23900307005 /* SNZView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A5BFB02073F23900307005 /* SNZView.swift */; };
+		61AEE7A22074E2DF00771423 /* PopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61AEE7A12074E2DF00771423 /* PopoverViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		583B4904DCF49DF88C79F3CC /* Pods_Snooze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snooze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61759B53207BB32D004CBA12 /* MDRestartShutdownLogout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDRestartShutdownLogout.m; sourceTree = "<group>"; };
+		61759B55207BB33D004CBA12 /* MDRestartShutdownLogout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDRestartShutdownLogout.h; sourceTree = "<group>"; };
+		6179E2B92075619C0017A330 /* SleepModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepModel.swift; sourceTree = "<group>"; };
+		6179E2BB207636C50017A330 /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		6179E2BD2076753A0017A330 /* BlurredBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurredBackgroundView.swift; sourceTree = "<group>"; };
+		6179E2BF207684220017A330 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		6179E2CB2076A59C0017A330 /* NoClippingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoClippingView.swift; sourceTree = "<group>"; };
+		618DC77020A05682003EAEB8 /* SNZButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNZButton.swift; sourceTree = "<group>"; };
+		618DC77320A0A8C8003EAEB8 /* SNZScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNZScrollView.swift; sourceTree = "<group>"; };
+		61A5BF6F2073C72F00307005 /* Snooze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snooze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A5BF722073C72F00307005 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61A5BF762073C72F00307005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61A5BF792073C72F00307005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61A5BF7B2073C72F00307005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61A5BF7C2073C72F00307005 /* Snooze.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Snooze.entitlements; sourceTree = "<group>"; };
+		61A5BF872073C7C900307005 /* PopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		61A5BF8E2073CB7300307005 /* SeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
+		61A5BF922073CDA500307005 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		61A5BF952073D11500307005 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		61A5BF9F2073E33900307005 /* SleepControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepControlView.swift; sourceTree = "<group>"; };
+		61A5BFA62073E39D00307005 /* ITSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITSwitch.h; sourceTree = "<group>"; };
+		61A5BFA72073E39D00307005 /* ITSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITSwitch.m; sourceTree = "<group>"; };
+		61A5BFA82073E39D00307005 /* Snooze-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Snooze-Bridging-Header.h"; sourceTree = "<group>"; };
+		61A5BFAA2073EC7900307005 /* SNZLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNZLabel.swift; sourceTree = "<group>"; };
+		61A5BFAC2073EF9E00307005 /* RadioButtonsContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonsContainerView.swift; sourceTree = "<group>"; };
+		61A5BFAE2073F18800307005 /* SNZRadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNZRadioButton.swift; sourceTree = "<group>"; };
+		61A5BFB02073F23900307005 /* SNZView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNZView.swift; sourceTree = "<group>"; };
+		61AEE7A12074E2DF00771423 /* PopoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopoverViewController.xib; sourceTree = "<group>"; };
+		6767D7C14494158EDE5C75BC /* Pods-Snooze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snooze.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snooze/Pods-Snooze.debug.xcconfig"; sourceTree = "<group>"; };
+		D44F9517C47E29B2C6DDEE60 /* Pods-Snooze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snooze.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snooze/Pods-Snooze.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61A5BF6C2073C72F00307005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59878633C42E7905CCF0ACEE /* Pods_Snooze.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F31206A91477C0A83604236 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				583B4904DCF49DF88C79F3CC /* Pods_Snooze.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61759B52207BB300004CBA12 /* MDRestartShutdown */ = {
+			isa = PBXGroup;
+			children = (
+				61759B53207BB32D004CBA12 /* MDRestartShutdownLogout.m */,
+				61759B55207BB33D004CBA12 /* MDRestartShutdownLogout.h */,
+			);
+			path = MDRestartShutdown;
+			sourceTree = "<group>";
+		};
+		618DC77220A0A4B0003EAEB8 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6179E2BB207636C50017A330 /* EventMonitor.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		61A5BF662073C72F00307005 = {
+			isa = PBXGroup;
+			children = (
+				61A5BF712073C72F00307005 /* Snooze */,
+				61A5BF702073C72F00307005 /* Products */,
+				FE0505BDF2691B7B46530329 /* Pods */,
+				3F31206A91477C0A83604236 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61A5BF702073C72F00307005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61A5BF6F2073C72F00307005 /* Snooze.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61A5BF712073C72F00307005 /* Snooze */ = {
+			isa = PBXGroup;
+			children = (
+				618DC77220A0A4B0003EAEB8 /* helpers */,
+				61A5BFA42073E39D00307005 /* external */,
+				61A5BF942073D0F600307005 /* extensions */,
+				61A5BF8D2073CB1400307005 /* models */,
+				61A5BF8B2073CADB00307005 /* views */,
+				61A5BF822073C78B00307005 /* viewControllers */,
+				61A5BF722073C72F00307005 /* AppDelegate.swift */,
+				61A5BF762073C72F00307005 /* Assets.xcassets */,
+				61A5BF782073C72F00307005 /* Main.storyboard */,
+				61A5BF7B2073C72F00307005 /* Info.plist */,
+				61A5BF7C2073C72F00307005 /* Snooze.entitlements */,
+			);
+			path = Snooze;
+			sourceTree = "<group>";
+		};
+		61A5BF822073C78B00307005 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				61AEE7A12074E2DF00771423 /* PopoverViewController.xib */,
+				61A5BF872073C7C900307005 /* PopoverViewController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		61A5BF8B2073CADB00307005 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				61A5BFAE2073F18800307005 /* SNZRadioButton.swift */,
+				61A5BFB02073F23900307005 /* SNZView.swift */,
+				6179E2CB2076A59C0017A330 /* NoClippingView.swift */,
+				618DC77020A05682003EAEB8 /* SNZButton.swift */,
+				61A5BFAA2073EC7900307005 /* SNZLabel.swift */,
+				61A5BF8E2073CB7300307005 /* SeparatorView.swift */,
+				61A5BF9F2073E33900307005 /* SleepControlView.swift */,
+				61A5BFAC2073EF9E00307005 /* RadioButtonsContainerView.swift */,
+				6179E2BD2076753A0017A330 /* BlurredBackgroundView.swift */,
+				6179E2BF207684220017A330 /* TitleView.swift */,
+				618DC77320A0A8C8003EAEB8 /* SNZScrollView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		61A5BF8D2073CB1400307005 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				61A5BF922073CDA500307005 /* Constants.swift */,
+				6179E2B92075619C0017A330 /* SleepModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		61A5BF942073D0F600307005 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				61A5BF952073D11500307005 /* Colors.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		61A5BFA42073E39D00307005 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				61759B52207BB300004CBA12 /* MDRestartShutdown */,
+				61A5BFA52073E39D00307005 /* ITSwitch */,
+				61A5BFA82073E39D00307005 /* Snooze-Bridging-Header.h */,
+			);
+			path = external;
+			sourceTree = "<group>";
+		};
+		61A5BFA52073E39D00307005 /* ITSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				61A5BFA62073E39D00307005 /* ITSwitch.h */,
+				61A5BFA72073E39D00307005 /* ITSwitch.m */,
+			);
+			path = ITSwitch;
+			sourceTree = "<group>";
+		};
+		FE0505BDF2691B7B46530329 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6767D7C14494158EDE5C75BC /* Pods-Snooze.debug.xcconfig */,
+				D44F9517C47E29B2C6DDEE60 /* Pods-Snooze.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61A5BF6E2073C72F00307005 /* Snooze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61A5BF7F2073C72F00307005 /* Build configuration list for PBXNativeTarget "Snooze" */;
+			buildPhases = (
+				07E9BB13AA87FE92752E8DB2 /* [CP] Check Pods Manifest.lock */,
+				61A5BF6B2073C72F00307005 /* Sources */,
+				61A5BF6C2073C72F00307005 /* Frameworks */,
+				61A5BF6D2073C72F00307005 /* Resources */,
+				E64F5634B8BABDE1D2FC3B49 /* [CP] Embed Pods Frameworks */,
+				A88EC542C0918992A103F2AF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snooze;
+			productName = Snooze;
+			productReference = 61A5BF6F2073C72F00307005 /* Snooze.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61A5BF672073C72F00307005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Praagya Joshi";
+				TargetAttributes = {
+					61A5BF6E2073C72F00307005 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 61A5BF6A2073C72F00307005 /* Build configuration list for PBXProject "Snooze" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61A5BF662073C72F00307005;
+			productRefGroup = 61A5BF702073C72F00307005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61A5BF6E2073C72F00307005 /* Snooze */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61A5BF6D2073C72F00307005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A5BF772073C72F00307005 /* Assets.xcassets in Resources */,
+				61A5BF7A2073C72F00307005 /* Main.storyboard in Resources */,
+				61AEE7A22074E2DF00771423 /* PopoverViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07E9BB13AA87FE92752E8DB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Snooze-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A88EC542C0918992A103F2AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snooze/Pods-Snooze-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E64F5634B8BABDE1D2FC3B49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Snooze/Pods-Snooze-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snooze/Pods-Snooze-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61A5BF6B2073C72F00307005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A5BF932073CDA500307005 /* Constants.swift in Sources */,
+				6179E2BC207636C50017A330 /* EventMonitor.swift in Sources */,
+				61A5BF962073D11500307005 /* Colors.swift in Sources */,
+				6179E2BE2076753A0017A330 /* BlurredBackgroundView.swift in Sources */,
+				61A5BFA92073E39D00307005 /* ITSwitch.m in Sources */,
+				61A5BF8F2073CB7300307005 /* SeparatorView.swift in Sources */,
+				61A5BFAF2073F18800307005 /* SNZRadioButton.swift in Sources */,
+				618DC77420A0A8C8003EAEB8 /* SNZScrollView.swift in Sources */,
+				61A5BF892073C7C900307005 /* PopoverViewController.swift in Sources */,
+				61A5BFA02073E33900307005 /* SleepControlView.swift in Sources */,
+				61A5BF732073C72F00307005 /* AppDelegate.swift in Sources */,
+				61A5BFB12073F23900307005 /* SNZView.swift in Sources */,
+				61A5BFAD2073EF9E00307005 /* RadioButtonsContainerView.swift in Sources */,
+				61A5BFAB2073EC7900307005 /* SNZLabel.swift in Sources */,
+				618DC77120A05682003EAEB8 /* SNZButton.swift in Sources */,
+				6179E2CC2076A59C0017A330 /* NoClippingView.swift in Sources */,
+				6179E2BA2075619C0017A330 /* SleepModel.swift in Sources */,
+				6179E2C0207684220017A330 /* TitleView.swift in Sources */,
+				61759B54207BB32D004CBA12 /* MDRestartShutdownLogout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61A5BF782073C72F00307005 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61A5BF792073C72F00307005 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61A5BF7D2073C72F00307005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61A5BF7E2073C72F00307005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		61A5BF802073C72F00307005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6767D7C14494158EDE5C75BC /* Pods-Snooze.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Snooze/Snooze.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Snooze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.praagya.Snooze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/praagyajoshi/Dev/Playground/Snooze/Snooze/external/Snooze-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		61A5BF812073C72F00307005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D44F9517C47E29B2C6DDEE60 /* Pods-Snooze.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Snooze/Snooze.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Snooze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.praagya.Snooze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/praagyajoshi/Dev/Playground/Snooze/Snooze/external/Snooze-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61A5BF6A2073C72F00307005 /* Build configuration list for PBXProject "Snooze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A5BF7D2073C72F00307005 /* Debug */,
+				61A5BF7E2073C72F00307005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61A5BF7F2073C72F00307005 /* Build configuration list for PBXNativeTarget "Snooze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A5BF802073C72F00307005 /* Debug */,
+				61A5BF812073C72F00307005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61A5BF672073C72F00307005 /* Project object */;
+}
